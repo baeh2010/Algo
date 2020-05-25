@@ -9,4 +9,4 @@ More is being added to this list
 6- merge two lists of intervals.<br/>
 <br/>
 <br/>
-Finally a main class to input tests to the above alogrithms. 
+Finally a method class to input tests to the above alogrithms. 
