@@ -1,0 +1,13 @@
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.exe
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.deps.json
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.runtimeconfig.json
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.runtimeconfig.dev.json
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.dll
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\bin\Debug\netcoreapp3.1\InterviewPractise-VSCODE.pdb
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.csprojAssemblyReference.cache
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.csproj.CoreCompileInputs.cache
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.AssemblyInfoInputs.cache
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.AssemblyInfo.cs
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.dll
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.pdb
+C:\Users\baeh2\OneDrive\Documents\InterviewPractise-VSCODE\obj\Debug\netcoreapp3.1\InterviewPractise-VSCODE.genruntimeconfig.cache
