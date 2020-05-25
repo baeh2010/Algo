@@ -140,27 +140,7 @@ namespace InterviewPractise_VSCODE
          return result;
       }
      
-     // merge intervals
-    public static int[][] IntervalIntersection(int[][] A, int[][] B) {
-     
-        List<int[]> result = new List<int[]>();
-        int i=0;
-        int j=0;
-        while(i<A.Length&&j<B.Length){
-            int lo= Math.Max(A[i][0],B[j][0]);
-            int hi=Math.Min(A[i][1],B[j][1]);
-            if(lo<=hi)
-                result.Add(new int[2]{lo,hi});
-            if(A[i][1]<B[j][1]){
-                i++;
-            }else{
-                j++;
-            }
-         
-        }
-           return result.ToArray();
-    }
-
+   
 
     public static List<int> ShortestPathInWeightedDAG(List<int[]>[] graph,int start,int end){
        if(graph.Length==0)
@@ -212,6 +192,26 @@ namespace InterviewPractise_VSCODE
 
 
 
+  // merge intervals
+    public static int[][] IntervalIntersection(int[][] A, int[][] B) {
+     
+        List<int[]> result = new List<int[]>();
+        int i=0;
+        int j=0;
+        while(i<A.Length&&j<B.Length){
+            int lo= Math.Max(A[i][0],B[j][0]);
+            int hi=Math.Min(A[i][1],B[j][1]);
+            if(lo<=hi)
+                result.Add(new int[2]{lo,hi});
+            if(A[i][1]<B[j][1]){
+                i++;
+            }else{
+                j++;
+            }
+         
+        }
+           return result.ToArray();
+    }
 
 
 
@@ -242,7 +242,7 @@ namespace InterviewPractise_VSCODE
                 Console.Write("( "+pair[0]+" , "+pair[1]+" )");
              }
 
-             
+             Console.WriteLine("");
              Console.WriteLine("****shortest path in weighted directed asyclc graph ****");
              List<int[]>[] DAG= new List<int[]>[8];
              DAG[0]=new List<int[]>();
@@ -268,7 +268,7 @@ namespace InterviewPractise_VSCODE
              DAG[7]=new List<int[]>();
            var shortestPathDAG= ShortestPathInWeightedDAG(DAG,2,6);
            foreach(var s in shortestPathDAG){
-             Console.Write(s+" , ");
+             Console.Write(s+"  ");
            }
 
       
