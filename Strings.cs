@@ -93,5 +93,33 @@ namespace InterviewPractise_VSCODE
        return sb.ToString();
       }
 
+    /*
+      longest common prefix
+      given an array of strings return the longest common prefix
+      that is shared amongst all string. 
+      assume all strings contain only lowercase alphabit
+
+      ["colorado","color","cold"] return "col"
+      ["a","b","c"] return ""
+      ["spot","spotty","spotted"] return "spot"
+
+
+
+    */
+     public string longestCommonPrefix(string[] strings){
+       StringBuilder longestCommonPrefix = new StringBuilder();
+       int index=0;
+       foreach(char c in strings[0]){
+         for(int i=1;i<strings.Length;i++){
+           string word=strings[i];
+            if(index>=word.Length||c!=word[index]){
+              return longestCommonPrefix.ToString();
+            }
+         }
+         longestCommonPrefix.Append(c);
+         index++;
+       }
+       return longestCommonPrefix.ToString();
+     }
   }
 }
